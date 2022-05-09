@@ -2,7 +2,7 @@
 Репозиторий для домашних заданий по курсу "Машинное обучение в продакшене" 
 ###Data
 Already exist in folder data/raw because of small size
-## Preresquistes
+### Preresquistes
 
 * [`Python 3`](https://www.python.org/)
 * `virtualenv` (`pip install virtualenv`)
@@ -14,9 +14,9 @@ virtualenv venv
 ```
 Install the modules
 ```bash
-pip install requirements.txt
+pip install -r requirements.txt
 ```
-###EDA
+### EDA
 Run
 ```bash
 python3 data_explore/eda.py 
