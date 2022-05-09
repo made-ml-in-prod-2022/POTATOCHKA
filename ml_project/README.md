@@ -1,6 +1,6 @@
 # POTATOCHKA
-Репозиторий для домашних заданий по курсу "Машинное обучение в продакшене" 
-###Data
+Дз1 по курсу "Машинное обучение в продакшене" 
+### Data
 Already exist in folder data/raw because of small size
 ### Preresquistes
 
