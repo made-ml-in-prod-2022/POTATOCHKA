@@ -35,6 +35,12 @@ python3 build_model/train.py --config-name boosting_learn.yaml
 python3 build_model/predict.py --config-name logreg_learn.yaml
 python3 build_model/predict.py --config-name boosting_learn.yaml
 ```
+
+### test transformer
+
+```bash
+ python3 -m pytest -v
+```
 ### Структура проекта
 ```
 └─ ml_project

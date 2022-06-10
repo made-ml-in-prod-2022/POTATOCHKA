@@ -1,4 +1,5 @@
 import hydra
+import numpy as np
 import pandas as pd
 import os
 import logging
@@ -10,7 +11,8 @@ sys.path.append('./utils/')
 from read_config import Config
 
 
-def split_and_save_data(full_df: pd.DataFrame, target: pd.DataFrame, dataclass_config: Config) -> Tuple[pd.DataFrame]:
+def split_and_save_data(full_df: pd.DataFrame, target: pd.DataFrame,
+                        dataclass_config: Config) -> Tuple[np.array]:
     if not os.path.exists(hydra.utils.to_absolute_path(path=dataclass_config.experiment_path)):
         logging.info(f"create experiment dir:{hydra.utils.to_absolute_path(path=dataclass_config.experiment_path)}")
         os.makedirs(hydra.utils.to_absolute_path(path=dataclass_config.experiment_path))

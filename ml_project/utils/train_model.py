@@ -35,8 +35,7 @@ def train_model(dataclass_config: Config, X_train_transformed: pd.DataFrame, X_t
                "auc": roc_auc_score(y_test, y_pred_proba),
                "f1": f1_score(y_test, y_pred)}
 
-    path_to_model = hydra.utils.to_absolute_path(
-        path=dataclass_config.experiment_path + '/' + dataclass_config.output_model_fname)
+    path_to_model = hydra.utils.to_absolute_path(path=dataclass_config.path_to_model)
     pickle.dump(model, open(path_to_model, 'wb'))
     path_to_save_metrics = dataclass_config.experiment_path + '/' + dataclass_config.metric_fname
     path_to_save_metrics = hydra.utils.to_absolute_path(path=path_to_save_metrics)

@@ -41,16 +41,17 @@ class Config:
     test_data_path: str
     test_label_path: str
     predict_path: str
+    path_to_model: str
+    path_to_transform: str
     split_params: SplitParams
     train_params: TrainParams
     feature_params: FeatureParams
-
 
 ConfigSchema = class_schema(Config)
 
 
 def create_config(config_file: Dict[str, str]) -> Config:
-    if config_file is str:
+    if isinstance(config_file, str):
         with open(config_file) as f:
             logging.info(f"building config from {config_file}")
             config_dict = yaml.safe_load(f)

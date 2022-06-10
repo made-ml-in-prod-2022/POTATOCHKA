@@ -2,8 +2,8 @@ import logging
 from sklearn.base import BaseEstimator, TransformerMixin
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.preprocessing import StandardScaler
+import pandas as pd
 import numpy as np
-
 
 
 class DatasetTransformer(BaseEstimator, TransformerMixin):
@@ -12,7 +12,7 @@ class DatasetTransformer(BaseEstimator, TransformerMixin):
         self.ohe = OneHotEncoder()
         self.scaler = StandardScaler()
 
-    def fit(self, X, y=None):
+    def fit(self, X: pd.DataFrame, y=None):
         logging.info(f"fit transformer with params: {self.transform_to_features}")
         for transform_part in self.transform_to_features:
             transform = transform_part.transform
@@ -23,7 +23,7 @@ class DatasetTransformer(BaseEstimator, TransformerMixin):
                 self.ohe.fit(X[columns])
         return self
 
-    def transform(self, X, y=None):
+    def transform(self, X: pd.DataFrame, y=None):
         logging.info(f"transformer transform")
         transformed_features = []
         for transform_part in self.transform_to_features:

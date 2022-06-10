@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
 import pandas as pd
-import tabulate
 
 data = pd.read_csv('./data/raw/heart_cleveland_upload.csv')
 
