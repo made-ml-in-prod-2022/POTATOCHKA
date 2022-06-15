@@ -1,0 +1,32 @@
+input_data_path: ""
+experiment_path: ""
+output_model_fname: ""
+fitted_transform_fname: "transform.pkl"
+metric_fname: ""
+test_data_path: ""
+test_label_path: ""
+train_data_path: ""
+predict_path: ""
+path_to_model: ""
+path_to_transform: "models/test/transform.pkl"
+
+split_params:
+  test_size: 0.3
+  seed: 12
+
+train_params:
+  model_type: ""
+  params:
+    random_state: 12
+
+feature_params:
+  transforms:
+    - transform: "StandardScaler"
+      columns:
+        - "num_feat"
+
+    - transform: "OneHotEncoder"
+      columns:
+        - "cat_feat"
+
+  target_col: ""
