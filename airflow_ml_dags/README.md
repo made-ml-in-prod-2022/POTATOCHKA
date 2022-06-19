@@ -1,4 +1,4 @@
-### To build docker 
+### To build
 ```bash
 sudo docker-compose up -d --build
 ```
