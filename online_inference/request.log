@@ -1,0 +1,121 @@
+INFO:root:read df from ml_project/data/raw/test_data.csv
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.931282464695332]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.8174440933277507]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.3113395216531634]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.004719019234007367]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.7009955555855192]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.09973355844386836]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.9844071993164716]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.9867671974420138]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.9650190248031661]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.04347319939403341]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.3398999568247151]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.5862943787980727]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.2767614550216286]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.00620972516895034]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.043053113224544956]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.6107636205047654]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.9038817567524066]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.14302692332735267]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.9778434002276788]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.015515635449351573]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.9730534852812981]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.887266805709411]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.050517418268957094]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.06609888217865922]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.08120509752638017]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.9833333134712459]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.9807925298871643]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.9984994540925167]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.7489693075611566]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.5990667587198834]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.47957580241065595]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.960204441017252]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.36476068290693103]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.21928385334062356]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.8692570747938653]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.9524656757849301]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.44243524163320336]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.03276282967641777]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.8909263938639335]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.046457005025357254]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.018138109730238067]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.7591908791499788]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.38773555895268424]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.17920776240235176]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.04915642437109013]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.9686065423762829]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.07348511521454686]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.8881731167322204]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.8956082853524038]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.019411863434054592]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.38987454629610185]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.9067966281161773]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.09658364448366624]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.7141799669062995]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.9910644472666224]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.4130912742919753]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.2531987165597403]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.9829576522291004]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.25871646103799434]}
+INFO:root:status_code: 200
+INFO:root:response.json:: {'probability': [0.5554229682270861]}
