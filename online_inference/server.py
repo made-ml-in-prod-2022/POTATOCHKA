@@ -6,9 +6,8 @@ import pickle
 from typing import List, Union
 import logging
 from config import InputToPredict, check_input, HOST, PORT, PATH_TO_MODEL, PATH_TO_TRANSFORMER
+from ml_project.utils import transform_class
 
-sys.path.append('./ml_project/utils/')
-import transform_class
 
 logging.basicConfig(filename='server.log', filemode='w', level=logging.INFO)
 
